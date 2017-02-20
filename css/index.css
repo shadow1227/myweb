@@ -9,7 +9,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #000;
+	color: #33CCFF;
 }
 h1 {
 	width: 150px;
@@ -20,7 +20,7 @@ h1 {
 h2 {
 	font-family: "allerbold";
 	font-weight: bold;
-	color: #f00;
+	color: #33CCFF;
 	text-transform: uppercase;
 	font-size: 14px;
 }
@@ -38,7 +38,7 @@ h3{
 	width: 0;
 	margin: 3px auto;
 	padding: 5px 0;
-	border-top: 2px solid #f00;
+	border-top: 2px solid #33CCFF;
 }
 .title_en h2 {
 	display: none;
@@ -105,10 +105,12 @@ header img:hover {
 	margin: 0px 15px 5px;
 	padding: 5px 15px;
 	width: 50px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #585A5D;
+	color:#585A5D;
 }
 #header_p2 {
 	padding: 0 15px;
+	color:#585A5D;
 }
 nav {
 	margin-top: 30px;
@@ -268,7 +270,7 @@ img#home_photo2 {
 	z-index: 99;
 }
 #home_info_box {
-	border-top: 2px solid #ccc;
+	border-top: 2px solid #33CCFF;
 	width: 0;
 	margin: 15px auto;
 }
@@ -281,6 +283,8 @@ img#home_photo2 {
 	display: none;
 	width: 800px;
 	text-align: center;
+	color:#ff1fcd;
+	text-shadow: 5px 5px 5px #585a5d;
 }
 #home_info1 {
 	font-size: 20px;
@@ -402,7 +406,8 @@ img#home_photo2 {
 	text-align: center;
 	line-height: 40px;
 	position: relative;
-	bottom: -300px;
+	color:#f00;
+	text-shadow: 3px 3px 3px #585a5d;
 }
 @-webkit-keyframes l_to_r {
 	49% {
@@ -907,7 +912,7 @@ img#home_photo2 {
 #demo_info {
 	clear: both;
 	padding-top: 50px;
-	border-top: 1px solid #f00;
+	border-top: 1px solid #33CCFF;
 	width: 950px;
   	margin: 0 auto;
 }
@@ -916,6 +921,7 @@ img#home_photo2 {
 	margin: 0 auto;
 	text-align: center;
 	line-height: 30px;
+	color:#f00;
 }
 #demo_info p a {
 	font-weight: bold;
@@ -980,8 +986,9 @@ img#home_photo2 {
 #contact_form {
 	display: none;
 	text-align: center;
-	padding-top: 80px;
 	font-size: 14px;
+	color:#fff;
+	text-shadow: 5px 5px 5px #000;
 }
 #contact_form a {
 	color: #3cf;
@@ -1044,19 +1051,18 @@ footer {
 	bottom: 0;
 	padding-top: 10px;
 	width: 100%;
-	border: #ccc 2px solid;
 }
 .footer {
 	line-height: 24px;
 	font-size: 8px;
 	text-align: center;
-	color: #666;
+	color: #33CCFF;
 }
 footer div a {
 	display: inline-block;
 	margin: 0 5px;
 	font-size: 8px;
-	color: #666;
+	color: #33CCFF;
 }
 footer div a:hover {
 	color: #930709;
@@ -1148,4 +1154,8 @@ footer div a:hover {
 	-o-animation: b_to_t 1s;
 	animation: b_to_t 1s;
 	visibility: visible;
+}
+.text li{
+	text-shadow: 5px 5px 5px #142E3D;
+	color:#000;
 }
